@@ -1,0 +1,49 @@
+/* fonnts link  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Italianno&family=Lilita+One&family=Poppins:wght@500&family=Roboto+Slab:wght@700&display=swap');
+
+/* common style  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#E5E5E5 ;
+    display: flex;
+    justify-content: center;
+}
+
+/* top player section style  */
+section{
+    background-color: #FFFFFF ;
+    width: 870px;
+    height: 679px;
+    
+}
+.top-players{
+    padding: 30px;
+    margin-bottom: 21px;
+}
+.top-players > h4{
+    color: #562EFF ;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 16px;
+
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
