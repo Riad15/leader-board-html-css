@@ -1,7 +1,7 @@
 /* fonnts link  */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gideon+Roman&family=Italianno&family=Lilita+One&family=Poppins:wght@500&family=Roboto+Slab:wght@700&display=swap');
 
-/* common style  */
+/* -----------------------common style----------------------------  */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -11,18 +11,21 @@ body{
     justify-content: center;
 }
 
-/* top player section style  */
+/* ------------------top player section style ----------------------*/
 section{
     background-color: #FFFFFF ;
     width: 870px;
     height: 679px;
+    padding: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
     
 }
 .top-players{
-    padding: 30px;
+    
     margin-bottom: 21px;
 }
-.top-players > h4{
+.section-title{
     color: #562EFF ;
 }
 .players{
@@ -47,3 +50,40 @@ section{
 hr{
     border: 1px solid #D1D1D1;
 }
+
+/* ------------top blog section style ------------------*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+ .blog  .thamnel > img{
+ width: 177px;
+ height: 117px;
+
+
+ }
+ .blog-info{
+     margin-left: 16px;
+ }
+ .blog-title{
+     font-size: 20px ;
+     font-weight: normal;
+     margin: 6px 0px;
+ }
+ .blog-writter{
+     color : #9F9F9F;
+ }
+ .blog-writter a {
+     font-size: 16px;
+     text-decoration: none;
+     color: #562EFF;
+ }
