@@ -87,3 +87,34 @@ main{
      text-decoration: none;
      color: #562EFF;
  }
+
+ /* -----------------course section styling--------------------- */
+
+ .courses{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-column-gap: 24px;
+ }
+ .course{
+     width: 253px;
+     height: 270px;
+ }
+.course .course-cvr img{
+    width: 177px;
+    height: 117px;
+}
+.course-info{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+}
+.fa-star.ratting{
+    color: #FFC014;
+    width: 12.39px;
+    height: 11.81px;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
